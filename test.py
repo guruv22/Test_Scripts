@@ -122,5 +122,5 @@
 # print(''.join(a))
 
 
-str=input("Enter the string:\n")
-print("{} {}".format(str[::2],str[1::2]))
+# str=input("Enter the string:\n")
+# print("{} {}".format(str[::2],str[1::2]))
