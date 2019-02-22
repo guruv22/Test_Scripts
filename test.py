@@ -40,27 +40,7 @@
 # print(id(b+"x"))
 
 
-# #!/bin/python3
-#
-# import math
-# import os
-# import random
-# import re
-# import sys
-#
-# # Complete the solve function below.
-# def solve(meal_cost, tip_percent, tax_percent):
-#     print((meal_cost + (tip_percent*int(meal_cost)/100) + (tax_percent*int(meal_cost)/100)))
-#     print(round(meal_cost + (tip_percent * int(meal_cost) / 100) + (tax_percent * int(meal_cost) / 100)))
-#
-# if __name__ == '__main__':
-#     meal_cost = float(input())
-#
-#     tip_percent = int(input())
-#
-#     tax_percent = int(input())
-#
-#     solve(meal_cost, tip_percent, tax_percent)
+
 
 # i = 4
 # d = 4.0
@@ -124,3 +104,68 @@
 
 # str=input("Enter the string:\n")
 # print("{} {}".format(str[::2],str[1::2]))
+
+# class Demo:
+#     def __new__(cls):
+#         print("Demo's __new__() invoked")
+#         return super(Demo,cls).__new__(cls)
+#
+#     def __init__(self):
+#         print("Demo's __init__() invoked")
+#
+# class Derived_Demo(Demo):
+#     def __new__(cls):
+#         print("Derived_Demo's __new__() invoked")
+#         return super(Derived_Demo,cls).__new__(cls)
+#
+#     def __init__(self):
+#         print("Derived_Demo's __init__() invoked")
+#
+# obj1 = Derived_Demo()
+# obj2 = Demo()
+
+
+# def getMoneySpent(keyboards, drives, b):
+#     #
+#     # Write your code here.
+#     #
+#     max_amt = 0
+#
+#     for kb in keyboards:
+#         for dr in drives:
+#             tot = kb + dr
+#             if tot > max_amt and tot <= b:
+#                 max_amt = tot
+#
+#     if max_amt == 0:
+#         return -1
+#     else:
+#         return max_amt
+#
+#
+# if __name__ == '__main__':
+#     b = 10
+#
+#     n = 2
+#
+#     m = 3
+#
+#     keyboards = [3, 1]
+#
+#     drives = [5, 2, 8]
+#
+#     #
+#     # The maximum amount of money she can spend on a keyboard and USB drive, or -1 if she can't purchase both items
+#     #
+#
+#     moneySpent = getMoneySpent(keyboards, drives, b)
+#     print(moneySpent)
+
+
+#!/bin/python3
+
+import sys
+
+# n = int(input().strip())
+# a = list(map(int, input().strip().split(' ')))
+
